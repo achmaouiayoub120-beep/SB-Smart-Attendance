@@ -1,0 +1,16 @@
+app/admin.tsx(81,25): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'SetStateAction<string>'.
+  Type 'undefined' is not assignable to type 'SetStateAction<string>'.
+app/admin.tsx(82,24): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'SetStateAction<string>'.
+  Type 'undefined' is not assignable to type 'SetStateAction<string>'.
+app/admin.tsx(88,25): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'SetStateAction<string>'.
+  Type 'undefined' is not assignable to type 'SetStateAction<string>'.
+app/admin.tsx(91,30): error TS2339: Property 'name' does not exist on type 'Module | (Professor & Record<"code", unknown>)'.
+  Property 'name' does not exist on type 'Professor & Record<"code", unknown>'.
+app/admin.tsx(92,25): error TS2345: Argument of type 'unknown' is not assignable to parameter of type 'SetStateAction<string>'.
+app/admin.tsx(93,35): error TS2339: Property 'professorId' does not exist on type 'Module | (Professor & Record<"code", unknown>)'.
+  Property 'professorId' does not exist on type 'Professor & Record<"code", unknown>'.
+app/admin.tsx(183,13): error TS2322: Type 'string | undefined' is not assignable to type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+app/admin.tsx(184,13): error TS2322: Type 'string | undefined' is not assignable to type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/context/data-context.tsx(291,13): error TS18048: 'module.schedule' is possibly 'undefined'.

@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "SB Smart Attendance",
+    "slug": "sb-smart-attendance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "sb-attendance",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F2744"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "ma.estsb.smartattendance"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#0F2744"
+      },
+      "package": "ma.estsb.smartattendance"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
